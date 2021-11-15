@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Roboto Medium';
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+
+html, body {
+  font-family: 'Roboto Medium';
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background: #2e4053;
+}
+
+input {
+  font-family: 'Roboto Medium';
+  width: 65%;
+  margin: auto;
+  padding: 0.7%;
+  border-radius: 10px;
+  outline: none;
+}
+
+form {
+  background: #3C4556;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  font-family: 'Roboto Medium';
+  border-radius: 20px;
+  background: #52c858;
+  color: white;
+  border: none;
+  padding: 0.7%;
+  width: 10%;
+  margin: auto;
+  transition: 1s;
+}
+
+form button:hover {
+  background: #16A085;
+  transition: 1s;
+}
+
+#messages {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+#messages::-webkit-scrollbar {
+  display: none;
+}
+
+#messages div {
+  margin-top: 3%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.wrapper {
+  color: #D0D3D4;
+  min-width: 75%;
+}
+
+.float-right {
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  padding: 3%;
+  background: #2471A3;
+  text-align: right;
+}
+
+.float-left {
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  padding: 3%;
+  background: #138D75;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  input {
+    padding: 1.5%;
+  }
+
+  button {
+    padding: 1.5%;
+  }
+}

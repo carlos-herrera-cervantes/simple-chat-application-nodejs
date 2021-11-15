@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yautja Rom</title>
+  <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
+  <link rel="icon" href="./public/images/favicon.png" />
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div id="messages"></div>
+    <form id="form">
+      <div class="center-text">
+        <input id="message" autocomplete="off" type="text" placeholder="Type your message" />
+        <button>Send</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"
+    integrity="sha384-KAZ4DtjNhLChOB/hxXuKqhMLYvx3b5MlT55xPEiNmREKRzeEm+RVPlTnAn0ajQNs"
+    crossorigin="anonymous"></script>
+  <script src="./public/js/index.js"></script>
+</body>
+
+</html>
